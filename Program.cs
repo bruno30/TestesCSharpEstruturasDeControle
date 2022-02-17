@@ -73,6 +73,46 @@ namespace TestesCSharpEstruturasDeControle
             }
 
 
+            Console.WriteLine("                                                                       ");
+            Console.WriteLine("********************* Estrutura SWITH ************************************");
+            Console.WriteLine("                                                                       ");
+
+            var atendimento = 5;
+            switch(atendimento)
+            {
+                case 1:
+                case 2:
+                    Console.WriteLine("RUIM");
+                    break;
+                case 3: 
+                case 4:
+                    Console.WriteLine("medio");
+                    break;
+                case 5:
+                    Console.WriteLine("ótimo");
+                    Console.WriteLine("Parabéns");
+                    break ;
+                default:
+                    Console.WriteLine("Nota inválida");
+                    break;
+
+            }
+            Console.WriteLine("Obrigado pela nota!!");
+
+
+            Console.WriteLine("                                                                       ");
+            Console.WriteLine("********************* Estrutura de repetição - WHILE ************************************");
+            Console.WriteLine("                                                                       ");
+
+
+
+
+
+
+
+
+
+
 
 
             Console.ReadLine();
